@@ -24,7 +24,7 @@ public class Main {
 			System.out.println("In which city is your restaurant?");
 			theRestaurant.restaurantLocation = inputScanner.nextLine().toLowerCase();
 
-			List<String[]> availableDrivers = getAvailableDrivers(driversScanner, theCustomer, theRestaurant);
+			List<String[]> availableDrivers = AvailableDrivers(driversScanner, theCustomer, theRestaurant);
 
 			formatInvoice(inputScanner, invoice, theCustomer, theRestaurant, availableDrivers);
 
@@ -109,7 +109,7 @@ public class Main {
 	} // end of format invoice method
 
 	// this method creates the list of available drivers.
-	static List<String[]> getAvailableDrivers(Scanner driversScanner, Customer theCustomer, Restaurant theRestaurant) {
+	static List<String[]> AvailableDrivers(Scanner driversScanner, Customer theCustomer, Restaurant theRestaurant) {
 		// availableDrivers list stores drivers in the city of customer and restaurant
 		ArrayList<String[]> availableDrivers = new ArrayList<String[]>();
 		// loop through drivers.txt
