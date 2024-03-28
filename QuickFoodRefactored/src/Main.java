@@ -35,7 +35,7 @@ public class Main {
 			System.out.println(e.toString());
 		}
 
-	} // end of main method
+	} 
 
 	// if there are no available drivers, output should be no drivers will deliver,
 	// else continue with program and format the invoice
@@ -106,7 +106,7 @@ public class Main {
 			System.out.println(e.toString());
 		}
 
-	} // end of format invoice method
+	} 
 
 	// this method creates the list of available drivers.
 	static List<String[]> AvailableDrivers(Scanner driversScanner, Customer theCustomer, Restaurant theRestaurant) {
