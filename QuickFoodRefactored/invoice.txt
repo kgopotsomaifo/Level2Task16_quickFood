@@ -1,0 +1,19 @@
+Order number: 006
+Customer: Loki
+Email: loki@asgard.com
+Phone number: 011554598
+Location: johannesburg
+
+You have ordered the following from Dimension Grill & Bar in johannesburg:
+
+12 x Space Milkshake (R888.88)
+
+Special instructions: low fat milk
+
+Total: R10666.56
+
+Eisa Wilson is nearest to the restaurant so they will be delivering your order at:
+
+Royal Palacy in Asgard, johannesburg
+
+If you need to contact the restaurant, their number is 01193338556.
