@@ -18,4 +18,5 @@ The program stores the following information for each customer:
   - Any special preparation instructions given by the customer
   - The total amount to be paid
   
-The program should receive the order and create the invoice in a particular fashion(final output after following the prompts should result in the invoice being outputted)
+The program should receive the order and create the invoice in a particular fashion
+(final output after following the prompts should result in the invoice being printed out)
